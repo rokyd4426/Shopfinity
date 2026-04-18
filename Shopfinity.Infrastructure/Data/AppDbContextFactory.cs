@@ -6,7 +6,7 @@ namespace Shopfinity.Infrastructure.Data;
 
 /// <summary>
 /// Used by dotnet-ef migrations CLI at design time.
-/// </summary>
+
 public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
 {
     public AppDbContext CreateDbContext(string[] args)
