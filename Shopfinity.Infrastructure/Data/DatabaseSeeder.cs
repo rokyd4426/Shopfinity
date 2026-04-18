@@ -15,7 +15,7 @@ public static class DatabaseSeeder
         RoleManager<IdentityRole> roleManager,
         ILogger? logger = null)
     {
-        // Apply pending migrations
+        
         await context.Database.MigrateAsync();
 
         // ── Seed Roles ────────────────────────────────────────────────────────
